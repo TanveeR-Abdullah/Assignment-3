@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Abdullah</title>
+
+
+    <!-- Google Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind  -->
+     <link href="./output.css" rel="stylesheet">
+    
+
+
+
+</head>
+
+<body class="bg-primary   text-white font-inter">
+
+    <!-------------- HEADER------------------->
+    <header class="fixed top-0 w-full backdrop-blur bg-primary/80 z-50">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">Abdullah</h1>
+
+            <ul class="hidden md:flex gap-8 text-lg">
+                <li><a href="#skills" class="hover:text-light duration-200">Skills</a></li>
+                <li><a href="#services" class="hover:text-light duration-200">Services</a></li>
+                <li><a href="#experience" class="hover:text-light duration-200">Work Experience</a></li>
+                <li><a href="#contact" class="hover:text-light duration-200">Contact</a></li>
+            </ul>
+
+            <div class="md:hidden text-3xl cursor-pointer" id="mobileMenu">☰</div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <ul id="mobileNav"
+            class=" flex flex-col bg-primary ring- border-t border-white/20 md:hidden px-6 pb-4 text-lg">
+            <a href="#skills" class="py-2 border-b border-white">Skills</a>
+            <a href="#services" class="py-2 border-b border-white">Services</a>
+            <a href="#experience" class="py-2 border-b border-white">Experience</a>
+            <a href="#contact" class="py-2 border-b border-white">Contact</a>
+        </ul>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="pt-32 pb-20 max-w-7xl mx-auto px-6 lg:flex items-center gap-12">
+
+        <div class="flex-1">
+            <h1 class="text-5xl font-bold leading-tight">
+                Hi, I'm <span class="text-light">Abdullah</span> 👋
+            </h1>
+            <p class="mt-4 text-xl opacity-90">A passionate MERN Stack Developer</p>
+
+        </div>
+
+        <div class="flex-1 relative mt-12 lg:mt-0">
+            <img src="./img/Passport2.png" class="w-80   mx-auto rounded-full shadow-xl">
+
+            <!-- Slider -->
+            <!-- <div class="absolute top-0 right-0 w-64 h-80 overflow-hidden rounded-2xl shadow-xl border border-white/10">
+                <img src="./img/colibri-business.png" class="slide absolute w-full h-full object-cover ">
+                <img src="./img/hero-.png" class="slide absolute w-full h-full object-cover ">
+                <img src="./img/where-ca.jpg" class="slide absolute w-full h-full object-cover ">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="py-20 max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl text-center font-bold mb-10">My Skills</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Express.js</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">NEXT.js</div>
+        </div>
+        
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="py-20 max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl text-center font-bold mb-10">Services</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="services-card">
+                <h3 class="text-2xl mb-3 font-semibold">Web Development</h3>
+                <p class="opacity-80">Custom websites built with React & Node.js</p>
+            </div>
+
+            <div class="services-card">
+                <h3 class="text-2xl mb-3 font-semibold">UI/UX Design</h3>
+                <p class="opacity-80">Clean, modern & user-friendly interfaces</p>
+            </div>
+
+            <div class="services-card">
+                <h3 class="text-2xl mb-3 font-semibold">Backend Development</h3>
+                <p class="opacity-80">Secure APIs, authentication, databases</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="py-20 max-w-7xl gap-10 mx-auto px-6">
+
+        <h2 class="text-3xl text-center font-bold ">Work Experience</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <!-- =========================Tomato=================== -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/Tomato.png" alt="website img">
+                <div class="flex flex-col gap-3 ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">Tomato</h3>
+                    <p class="text-center"> This Website is Design with react.js and tailwind </p>
+                    <button
+                        class="link-btn mx-auto w-24"><a
+                            href="https://food-dis-001.netlify.app/" target="_blank">live link</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ==========================Foodies==================== -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/Foodies.png" alt="website img">
+                <div class="flex flex-col gap-3 ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">Foodies</h3>
+                    <p class="text-center"> This Website is Design With Html and CSS for Assignment-2 </p>
+                    <button
+                        class="link-btn mx-auto w-24">
+                        <a href="https://asssigement-2-001.netlify.app/" target="_blank">live link</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ==========================SushiZen===================== -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/SushiZen.png" alt="website img">
+                <div class="flex flex-col gap-3  ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">SushiZen</h3>
+                    <p class="text-center">This Website is Design With Html and CSS . This is a Sushi showcase website
+                    </p>
+                    <button
+                        class="link-btn mx-auto w-24">
+                        <a href="https://sufhizen-001.netlify.app/" target="_blank">live link</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ==========================StartUp Business================== -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/where-ca.jpg" alt="website img">
+                <div class="flex flex-col gap-3 ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">StartUp Business</h3>
+                    <p class="text-center"> I'm Going To Design This Website with React.js and Tailwind</p>
+                    <button
+                        class="link-btn">
+                        Up Coming Project
+                    </button>
+                </div>
+            </div>
+
+            <!-- =========================Marvelous========================= -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/hero-.png" alt="website img">
+                <div class="flex flex-col gap-3 ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">Marvelous</h3>
+                    <p class="text-center"> I'm Going To Design This Website with React.js and Tailwind </p>
+                    <button
+                        class="link-btn">
+                        Up Coming Project
+                    </button>
+                </div>
+            </div>
+
+            <!-- ==============================Travels============= -->
+            <div class="card">
+                <img class="rounded-xl" src="./img/Wimg/toolsete.png" alt="website img">
+                <div class="flex flex-col gap-3 ">
+                    <h3 class="text-center mt-3 text-lg font-bold ">Travels</h3>
+                    <p class="text-center"> This Website is Design with react.js and tailwind </p>
+                    <button
+                        class="link-btn">
+                        Up Coming Project
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="py-20 max-w-md flex flex-col justify-center mx-auto px-6">
+
+        <h2 class="text-3xl text-center font-bold mb-10">Contact Me</h2>
+        <form class="flex flex-col gap-4">
+            <input type="text" placeholder="Your Name" class="p-3 bg-gray-200 rounded-lg text-black">
+            <input type="email" placeholder="Your Email" class="p-3 bg-gray-200  rounded-lg text-black">
+            <textarea placeholder="Message" rows="5" class="p-3  bg-gray-200  rounded-lg text-black"></textarea>
+
+            <button
+                class="bg-light text-black py-3 font-semibold rounded-lg hover:opacity-90 duration-200">Send</button>
+        </form>
+
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-[#1b1b1f] text-gray-300 py-16 px-6 md:px-20">
+
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-20">
+
+            <!-- About Section -->
+            <div>
+                <h3 class="text-white text-xl font-semibold mb-4">About Me</h3>
+
+                <p class="text-gray-400 leading-relaxed mb-6">
+                    Passionate about learning, creating, and improving every day. I enjoy solving problems, exploring
+                    new ideas, and taking on challenges that help me grow personally and professionally.
+                    I’m someone who loves to learn new things, meet new people, and stay curious about the world. I
+                    enjoy working on meaningful projects and creating positive experiences for others.
+                </p>
+
+                <div class="space-y-3 mb-6">
+                    <p class="flex items-center gap-2">
+                        <span class="text-orange-400 text-lg">📞</span>
+                        +880 163 1111 111
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <span class="text-orange-400 text-lg">✉️</span>
+                        abdullahamin8888@gmail.com
+                    </p>
+                </div>
+
+                <!-- Email input -->
+                <div class="flex items-center bg-[#2a2a2f] rounded-full px-4 py-2 w-full max-w-md">
+                    <input type="email" placeholder="Enter your e-mail"
+                        class="bg-transparent outline-none text-sm flex-1 text-gray-300">
+                    <button
+                        class="bg-primary hover:bg-white-600 text-white text-sm font-semibold px-5 py-2 rounded-full">
+                        Send
+                    </button>
+                </div>
+            </div>
+
+            <!-- Latest Tweets -->
+            <div>
+                <h3 class="text-white text-xl font-semibold mb-4">Also You can Contract Me On</h3>
+
+                <div class="space-x-6">
+                    <ul class="list-none flex flex-col gap-10">
+
+                        <li class="flex flex-row gap-5 hover:cursor-pointer ">
+                            <img src="./img/Icons/facebook.png" alt="facebook">
+                            <a href="https://www.facebook.com/tanveerisalm/" target="_blank">TanveeR Islam</a>
+
+
+                        </li>
+
+                        <li class="flex flex-row gap-5 hover:cursor-pointer">
+                            <img src="img/Icons/github.png" alt="github">
+                            <a href="https://github.com/TanveeR-Abdullah" target="_blank">TanveeR-Abdullah</a>
+                        </li>
+
+                        <li class="flex flex-row gap-5 hover:cursor-pointer">
+                            <img src="./img/Icons/instagram.png" alt="instagram">
+                            <a href="https://www.instagram.com/hehe_tenu_real/" target="_blank">hehe_tenu_real</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
