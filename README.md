@@ -4,4 +4,4 @@
 
 ### Email: abdullahamin8888@gmail.com
 
-[ Live url](অ্যাসাইনমেন্টের লাইভ url লিংক দিন)
+[ Live url] : personal-portfolio-assignment-003.netlify.app
