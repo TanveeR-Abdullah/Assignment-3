@@ -4,4 +4,4 @@
 
 ### Email: abdullahamin8888@gmail.com
 
-[ Live url] : personal-portfolio-assignment-003.netlify.app
+[ Live url] : https://personal-portfolio-assignment-003.netlify.app/
